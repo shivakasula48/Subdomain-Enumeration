@@ -42,8 +42,6 @@ project/
 
 ---
 
-## ⚙️ Requirements
----
 
 ## ⚙️ Tool & Library Requirements
 
@@ -56,7 +54,7 @@ project/
 pip install dnspython
 ```
 
----
+--
 
 ### 2. `subdomain_enum.py`  
 **Required Library:**  
