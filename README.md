@@ -79,6 +79,7 @@ pip install requests
 
 > 📌 _No need to install `tkinter` via pip; it's part of the standard library for most Python installations. If missing, install via your OS package manager._
 
+---
 
 
 ## 🔧 Usage
