@@ -118,6 +118,7 @@ python dns_enum.py
 - The output will list DNS records if available.
 
 
+---
 
 ## 📂 Files Overview
 
@@ -128,3 +129,39 @@ python dns_enum.py
 | `dns_enum.py`                | Displays DNS records for a target domain        |
 | `subdomains.txt`             | Massive wordlist for subdomain brute-force      |
 | `discovered_subdomains.txt`  | Output file containing valid subdomains         |
+
+
+
+
+
+
+
+## 🛡️ Disclaimer
+
+This tool is for **educational** and **authorized penetration testing** purposes only.  
+❗ **Do not use it against domains you do not own or have explicit permission to test.**
+
+---
+
+## 📬 Author
+
+**Kasula Shiva**  
+🎓 B.Tech CSE (Cybersecurity)  
+📧 [shivakasula10@gmail.com](mailto:shivakasula10@gmail.com)  
+🌐 [GitHub](https://github.com/shivakasula48)
+
+
+
+
+
+## 🙏 Acknowledgements
+
+- Subdomain wordlist used in this project was sourced from the amazing [SecLists](https://github.com/danielmiessler/SecLists) repository by [Daniel Miessler](https://github.com/danielmiessler).
+- Specific list: [subdomains-top1million-110000.txt](https://github.com/danielmiessler/SecLists/blob/master/Discovery/DNS/subdomains-top1million-110000.txt)
+
+Huge thanks to the community for maintaining such valuable resources!
+
+
+
+
+
