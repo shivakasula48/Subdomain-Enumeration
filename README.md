@@ -80,3 +80,51 @@ pip install requests
 ```
 
 > 📌 _No need to install `tkinter` via pip; it's part of the standard library for most Python installations. If missing, install via your OS package manager._
+
+
+## 🔧 Usage
+
+### 1. CLI Subdomain Enumeration
+
+```bash
+python subdomain_enum.py
+```
+
+- You will be prompted to enter the target domain.
+- Results are saved to `discovered_subdomains.txt`.
+
+---
+
+### 2. GUI Subdomain Enumeration
+
+```bash
+python subdomain_enum_gui.py
+```
+
+- Enter a domain.
+- Select `subdomains.txt` using the file dialog.
+- Click **Start** to begin scanning.
+- Discovered subdomains and a summary will be shown in real-time.
+
+---
+
+### 3. DNS Record Fetcher
+
+```bash
+python dns_enum.py
+```
+
+- Set the domain inside the script (`target_domain` variable).
+- The output will list DNS records if available.
+
+
+
+## 📂 Files Overview
+
+| File                         | Description                                     |
+|------------------------------|-------------------------------------------------|
+| `subdomain_enum.py`          | Multithreaded CLI tool to find subdomains       |
+| `subdomain_enum_gui.py`      | GUI interface for subdomain discovery           |
+| `dns_enum.py`                | Displays DNS records for a target domain        |
+| `subdomains.txt`             | Massive wordlist for subdomain brute-force      |
+| `discovered_subdomains.txt`  | Output file containing valid subdomains         |
