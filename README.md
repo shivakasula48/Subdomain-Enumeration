@@ -54,7 +54,7 @@ project/
 pip install dnspython
 ```
 
----
+
 
 ### 2. `subdomain_enum.py`  
 **Required Library:**  
@@ -65,7 +65,7 @@ pip install dnspython
 pip install requests
 ```
 
----
+
 
 ### 3. `subdomain_enum_gui.py`  
 **Required Libraries:**  
@@ -79,7 +79,7 @@ pip install requests
 
 > 📌 _No need to install `tkinter` via pip; it's part of the standard library for most Python installations. If missing, install via your OS package manager._
 
----
+
 
 ## 🔧 Usage
 
@@ -92,7 +92,7 @@ python subdomain_enum.py
 - You will be prompted to enter the target domain.
 - Results are saved to `discovered_subdomains.txt`.
 
----
+
 
 ### 2. GUI Subdomain Enumeration
 
@@ -105,7 +105,7 @@ python subdomain_enum_gui.py
 - Click **Start** to begin scanning.
 - Discovered subdomains and a summary will be shown in real-time.
 
----
+
 
 ### 3. DNS Record Fetcher
 
