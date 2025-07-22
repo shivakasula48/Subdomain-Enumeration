@@ -54,7 +54,7 @@ project/
 pip install dnspython
 ```
 
---
+---
 
 ### 2. `subdomain_enum.py`  
 **Required Library:**  
@@ -79,6 +79,7 @@ pip install requests
 
 > 📌 _No need to install `tkinter` via pip; it's part of the standard library for most Python installations. If missing, install via your OS package manager._
 
+---
 
 ## 🔧 Usage
 
@@ -131,7 +132,7 @@ python dns_enum.py
 
 
 
-
+---
 
 
 ## 🛡️ Disclaimer
@@ -148,7 +149,7 @@ This tool is for **educational** and **authorized penetration testing** purposes
 📧 [shivakasula10@gmail.com](mailto:shivakasula10@gmail.com)  
 🌐 [GitHub](https://github.com/shivakasula48)
 
-
+---
 
 
 
@@ -160,7 +161,7 @@ This tool is for **educational** and **authorized penetration testing** purposes
 Huge thanks to the community for maintaining such valuable resources!
 
 
-
+---
 
 # License
 
